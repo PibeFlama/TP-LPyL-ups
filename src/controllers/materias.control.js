@@ -1,5 +1,3 @@
-const { message } = require("../schemas/materias.schemas");
-const controller={}
 const carreras = require("../../data/carreras.json")
 const materias = []
 carreras.forEach((c) => materias.push(...c.materias))

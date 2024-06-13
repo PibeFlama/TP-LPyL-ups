@@ -1,5 +1,4 @@
 let carreras = require("../../data/carreras.json");
-const controller = {}
 let materias = []
 carreras.forEach(c => c.materias.forEach(m => materias.push(m)))
 
